@@ -83,7 +83,7 @@ while not pangolin.ShouldQuit():
 As shown above, this library works seamlessly with PyOpenGL and numpy, it can access 
 numpy array directly without copying data (thanks to [pybind11](https://github.com/pybind/pybind11)).  
 
-## <span id="Gallery">Gallery</span>
+## <a name="Gallery">Gallery</a>
 **[HelloPangolin.py](python/examples/HelloPangolin.py)** (point cloud and 3d object):  
 ![](python/examples/imgs/HelloPangolinColorful.png)
 
@@ -148,7 +148,7 @@ Find the latest version on [Github](http://github.com/stevenlovegrove/Pangolin):
 git clone https://github.com/stevenlovegrove/Pangolin.git
 ```
 
-## <span id="Dependencies">Dependencies</span>
+## <a name="Dependencies">Dependencies</a>
 
 Optional dependencies are enabled when found, otherwise they are silently disabled.
 Check the CMake configure output for details.
