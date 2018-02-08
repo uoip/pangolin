@@ -16,7 +16,7 @@ class CopyLibFile(install):
     """
 
     def run(self):
-        install_dir = get_python_lib()
+        install_dirs = get_python_lib()
 
         lib_file = glob.glob(__library_file__)
         assert len(lib_file) == 1 and len(install_dirs) >= 1     
