@@ -19,9 +19,9 @@ class CopyLibFile(install):
         install_dir = get_python_lib()
 
         lib_file = glob.glob(__library_file__)
-        assert len(lib_file) == 1 and len(install_dirs) >= 1     
+        assert len(lib_file) == 1 and len(install_dir) >= 1     
 
-        print('copying {} -> {}'.format(lib_file[0], install_dirs[0]))
+        print('copying {} -> {}'.format(lib_file[0], install_dir))
         shutil.copy(lib_file[0], install_dir)
 
 
