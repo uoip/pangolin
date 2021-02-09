@@ -36,7 +36,7 @@ cd pangolin
 mkdir build
 cd build
 cmake ..
-make -j8
+cmake --build .
 cd ..
 python setup.py install
 ```
